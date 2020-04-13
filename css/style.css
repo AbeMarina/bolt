@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+.clearfix:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+body {
+  font-family: Lato;
+}
+.theme-font {
+ font-family: Raleway;
+}
+.header {
+  background-color: #fff;
+  padding: 15px 0;
+}
+.icon-size {
+  font-size: 40px;
+}
+.header-botton {
+  background-color: #74cfae;
+  color:#fff;
+  font-size: 12px;
+  padding: 14px 12px;
+  float: right;
+  transition: 0.3s;;
+}
+.header-botton:hover {
+  color: #333;
+}
+.title {
+  background-color: #f2f2f2;
+}
+.title-inner {
+  padding: 250px 0;
+}
+.theme {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+ text-align: center;
+}
+.free {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+/* ここから緑の部分 */
+.what {
+  background-color: #74cfae;
+  padding-top: 50px;
+}
+.iphone {
+  width: 38%;
+ float: left;
+ text-align: center;
+}
+.text-side{
+  width: 62%;
+  color: #fff;
+  float: left;
+  text-align: center;
+}
+.cando {
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.lorem {
+  font-size:20px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* ここから画像の部分 */
+.latest {
+  background-color: #f2f2f2;
+}
+.work {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.photo-list {
+  margin-top: 80px;
+  margin-left: 100px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.photo-list:hover {
+  opacity: 1;
+}
+.photo-list:nth-child(3n+1) {
+  margin-left: 0;
+}
+.photo-list:nth-child(-n+3){
+  margin-top: 0;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.textline {
+  color: #333;
+  float: left;
+  margin: 90px 90px 70px 90px;
+  text-align: center;
+}
+.mail_botton {
+  font-size: 12px;
+  margin: 90px 90px 70px 0;
+  padding: 14px 20px;
+  color: #fff;
+  background-color: #74cfae;
+  transition: 0.3s;
+}
+.mail_botton:hover{
+  color: #333;
+
+}
+
+/* ここからサークルの部分 */
+.skills {
+  background-color: #4e4e4e;
+}
+.our {
+  padding: 70px;
+  font-size: 24px;
+  text-align: center;
+  color: #fff
+}
+.circle-only {
+  margin-left: 180px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #fff;
+}
+.set :first-child {
+  margin: 0;
+}
+.circle_text {
+  padding-left: 180px;
+  margin-bottom: 100px;
+  font-size: 16px;
+}
+.ex {
+  font-size: 16px;
+}
+
+/* ここからSNSの部分 */
+.sns {
+  background-color: #f2f2f2;
+}
+.sns-inner {
+  padding: 200px 0;
+  text-align: center;
+}
+.icon-sns {
+  color: #74cfae;
+  text-align: center;
+  font-size: 40px;
+  width: 185px;
+  padding: 25px;
+}
+.icon-all {
+  justify-content: center;
+}
+a .icon-sns:hover {
+  background-color: #fff;
+  transition: 0.3s;
+}
+/* ここからフッター */
+.footer {
+  background-color: #74cfae;
+}
+.by-name {
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  float: right;
+}
