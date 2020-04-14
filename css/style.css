@@ -186,21 +186,29 @@ ul {
 }
 .icon {
   width: 185px;
+  padding: 25px 0;
 }
+/* a .icno:hover{
+  background-color: #fff;
+} */
+/* a .icon {
+  padding:25px 0;
+} */
 a .icon-sns {
   color: #74cfae;
-  text-align: center;
   font-size: 40px;
-  /* width: 185px; */
   padding: 25px 0;
+  width: 185px;
   transition: 0.3s;
+}
+a .icon-sns:hover {
+  /* width: 185px; */
+  background-color: #fff;
 }
 .icon-all {
   justify-content: center;
 }
-a .icon-sns:hover {
-  background-color: #fff;
-}
+
 /* ここからフッター */
 .footer {
   background-color: #74cfae;
