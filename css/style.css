@@ -78,11 +78,12 @@ body {
   text-align: center;
 }
 .cando {
-  margin: 35px 0;
+  /* margin-bottom: 35px; */
   font-size: 24px;
   text-align: center;
 }
 .lorem {
+  margin-top: 35px;
   font-size:20px;
   text-align: center;
 }
@@ -90,12 +91,13 @@ body {
 /* ここから画像の部分 */
 .latest {
   background-color: #f2f2f2;
+  padding: 60px 0 70px 0;
 }
 .work {
   text-align: center;
   font-size: 24px;
   color: #333;
-  padding: 60px 0 40px 0;
+  /* padding: 60px 0 40px 0; */
 }
 
 .photo-list {
@@ -116,16 +118,22 @@ body {
 ul {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
+}
+.two_set {
+  margin: 90px 90px 70px 90px;
+  text-align: center;
 }
 .textline {
   color: #333;
   float: left;
-  margin: 90px 90px 70px 90px;
+  /* margin: 90px 90px 70px 90px; */
   text-align: center;
 }
 .mail_botton {
+  /* margin-left: 90px; */
   font-size: 12px;
-  margin: 90px 90px 70px 0;
+  /* margin: 90px 90px 70px 0; */
   padding: 14px 20px;
   color: #fff;
   background-color: #74cfae;
@@ -140,6 +148,7 @@ ul {
 .skills {
   background-color: #4e4e4e;
   padding-top: 70px;
+  padding-bottom: 100px;
 }
 .our {
   /* padding: 70px; */
@@ -149,14 +158,18 @@ ul {
 }
 .circle-only {
   margin-left: 180px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   display: block;
   margin: 0 auto;
   text-align: center;
   color: #fff;
 }
+.circle-only:first-child {
+  margin-left: 0;
+}
 .set {
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  justify-content: center;
 }
 .ex {
   padding-left: 180px;
@@ -171,12 +184,15 @@ ul {
 .sns-inner {
   text-align: center;
 }
+.icon {
+  width: 185px;
+}
 a .icon-sns {
   color: #74cfae;
   text-align: center;
   font-size: 40px;
-  width: 185px;
-  padding: 25px;
+  /* width: 185px; */
+  padding: 25px 0;
   transition: 0.3s;
 }
 .icon-all {
