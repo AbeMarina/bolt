@@ -121,7 +121,7 @@ ul {
   margin-top: 40px;
 }
 .two_set {
-  margin: 90px 90px 70px 90px;
+  margin: 90px 90px 0 90px;
   text-align: center;
 }
 .textline {
@@ -160,7 +160,7 @@ ul {
   margin-left: 180px;
   /* padding-bottom: 100px; */
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
   color: #fff;
 }
@@ -184,27 +184,43 @@ ul {
 .sns-inner {
   text-align: center;
 }
-.icon {
+.icon a{
   width: 185px;
-  padding: 25px 0;
-}
-/* a .icno:hover{
-  background-color: #fff;
-} */
-/* a .icon {
-  padding:25px 0;
-} */
-a .icon-sns {
   color: #74cfae;
   font-size: 40px;
   padding: 25px 0;
   width: 185px;
   transition: 0.3s;
 }
-a .icon-sns:hover {
-  /* width: 185px; */
+.icon a:hover {
   background-color: #fff;
 }
+a .icon-link {
+  color: #74cfae;
+  font-size: 40px;
+  padding: 25px 0;
+  width: 185px;
+  transition: 0.3s;
+}
+/* a .icon-link:hover{
+  background-color: #fff;
+} */
+/* a .icno:hover{
+  background-color: #fff;
+} */
+/* a .icon {
+  padding:25px 0;
+} */
+.icon-sns {
+  color: #74cfae;
+  /* font-size: 40px;
+  padding: 25px 0;
+  width: 185px;
+  transition: 0.3s; */
+}
+/* a .icon-sns:hover {
+  background-color: #fff;
+} */
 .icon-all {
   justify-content: center;
 }
@@ -212,10 +228,9 @@ a .icon-sns:hover {
 /* ここからフッター */
 .footer {
   background-color: #74cfae;
+  padding: 20px 0 25px 0;
 }
 .by-name {
   color: #fff;
-  padding-top: 20px;
-  padding-bottom: 25px;
   float: right;
 }
