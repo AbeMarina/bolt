@@ -1,11 +1,11 @@
 @charset "UTF-8";
-* {
-  box-sizing: border-box;
-}
+
+@media screen and( max-width: 1199px) {}
+@media screen and (max-width: 767px) {}
 
 .inner {
-  width: 100%;
   /* width: 1100px; */
+  width: 100%;
   margin: 0 auto;
 }
 a {
@@ -54,6 +54,9 @@ body {
   background-color: #f2f2f2;
   padding: 250px 0;
 }
+/* .title-inner {
+  padding: 250px 0;
+} */
 .theme {
   font-size: 90px;
   font-weight: 700;
@@ -65,17 +68,6 @@ body {
   text-align: center;
   font-size: 30px;
   color: #c0c0c0;
-}
-
-
-.menu-icon {
-  color: white;
-  float: right;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 10px;
-  display: none;
-  
 }
 
 /* ここから緑の部分 */
@@ -95,6 +87,7 @@ body {
   text-align: center;
 }
 .cando {
+  /* margin-bottom: 35px; */
   font-size: 24px;
   text-align: center;
 }
@@ -103,6 +96,7 @@ body {
   font-size:20px;
   text-align: center;
 }
+
 /* ここから画像の部分 */
 .latest {
   background-color: #f2f2f2;
@@ -112,6 +106,7 @@ body {
   text-align: center;
   font-size: 24px;
   color: #333;
+  /* padding: 60px 0 40px 0; */
 }
 
 .photo-list {
@@ -132,6 +127,7 @@ body {
 .photo {
   display: flex;
   flex-wrap: wrap;
+  /* margin-top: 40px; */
 }
 .two_set {
   margin: 90px 90px 0 90px;
@@ -140,10 +136,13 @@ body {
 .textline {
   color: #333;
   float: left;
+  /* margin: 90px 90px 70px 90px; */
   text-align: center;
 }
 .mail_botton {
+  /* margin-left: 90px; */
   font-size: 12px;
+  /* margin: 90px 90px 70px 0; */
   padding: 14px 20px;
   color: #fff;
   background-color: #74cfae;
@@ -168,7 +167,9 @@ body {
 }
 .circle-only {
   margin-left: 180px;
+  /* padding-bottom: 100px; */
   display: block;
+  /* margin: 0 auto; */
   text-align: center;
   color: #fff;
 }
@@ -176,6 +177,7 @@ body {
   margin-left: 0;
 }
 .set {
+  /* margin-top: 70px; */
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
@@ -227,5 +229,16 @@ a .icon-link {
 }
 .by-name {
   color: #fff;
+  float: right;
+}
+
+
+
+
+.memu-icon {
+  color: #ddd;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   float: right;
 }
