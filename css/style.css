@@ -1,11 +1,18 @@
 @charset "UTF-8";
 
-@media screen and( max-width: 1199px) {}
-@media screen and (max-width: 767px) {}
+/* @media screen and( max-width: 1199px) {
+  .iphone {
+    clear: left;
+  }
+}
+@media screen and (max-width: 767px) {} */
+/* * {
+  box-sizing: border-box;
+} */
 
 .inner {
-  /* width: 1100px; */
-  width: 100%;
+  width: 1100px;
+  /* width: 100%; */
   margin: 0 auto;
 }
 a {
@@ -106,6 +113,7 @@ body {
   text-align: center;
   font-size: 24px;
   color: #333;
+  margin-bottom: 40px;
   /* padding: 60px 0 40px 0; */
 }
 
@@ -195,18 +203,17 @@ body {
 .sns-inner {
   text-align: center;
 }
-.icon a{
-  width: 185px;
+.icon {
+  /* width: 185px; */
   color: #74cfae;
   font-size: 40px;
   padding: 25px 0;
-  width: 185px;
   transition: 0.3s;
 }
-.icon a:hover {
+.icon :hover {
   background-color: #fff;
 }
-a .icon-link {
+.icon-link {
   color: #74cfae;
   font-size: 40px;
   padding: 25px 0;
@@ -235,10 +242,123 @@ a .icon-link {
 
 
 
-.memu-icon {
+.menu-icon {
   color: #ddd;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
   float: right;
+  display: none;
+}
+
+
+/* TABver */
+@media screen and ( max-width: 1199px) {
+  .inner {
+    width: 90%;
+  }
+
+  /* green-space */
+  .iphone {
+    width: 100%;
+  }
+  .text-side {
+    width: 100%;
+    margin: 20px 0 25px 0;
+  }
+
+  /* photo-space */
+  .photo-list {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .photo-list:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+  .photo-list:nth-child(-n+3) {
+    margin-top: 0;
+  }
+
+  .two_set {
+    margin: 0;
+  }
+  .textline {
+    margin-top: 80px;
+    float: none;
+  }
+  .mail_botton {
+    margin-top: 40px;
+  }
+
+  /* circle-space */
+  .circle-only {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 88px;
+  }
+  .circle-only:first-child {
+    margin-top: 0;
+  }
+}
+
+
+/* SPver */
+@media screen and (max-width: 767px) {
+  .inner {
+    width: 90%;
+  }
+  
+  /* header-space */
+  .header-botton {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  /* title-space */
+  .title {
+    padding: 160px 0 130px 0;
+  }
+  .theme-font {
+    font-size: 80px;
+  }
+  .free {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  /* green-space */
+  .iphone {
+    width: 100%;
+    clear: left;
+  }
+
+  /* photo-space */
+  .photo {
+    text-align: center;
+    display: block;
+  }
+  .photo-list {
+    margin: 0;
+  }
+  .textline br {
+    display: none;
+  }
+
+  /* SNS-space */
+  .sns {
+    padding: 50px 15px;
+  }
+
+  .icon-all {
+    display: block;
+  }
+  
+  .icon-link {
+    width: 100%;
+  }
+
 }
